@@ -1,0 +1,25 @@
+# configuration/config.yaml
+app:
+  name: "Privileged Rapper Inc."
+  version: "1.0.0"
+  debug: false
+
+security:
+  password_min_length: 8
+  session_timeout: 3600
+  max_login_attempts: 5
+
+scanning:
+  default_scan_type: "comprehensive"
+  max_concurrent_scans: 3
+  result_retention_days: 90
+
+ai:
+  enabled: true
+  model_path: "./models/"
+  confidence_threshold: 0.8
+
+reporting:
+  default_format: "pdf"
+  include_charts: true
+  company_name: "Privileged Rapper Inc."

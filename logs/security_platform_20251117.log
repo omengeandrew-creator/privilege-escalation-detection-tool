@@ -1,0 +1,13 @@
+2025-11-17 09:34:27,774 - PrivilegedRapper - INFO - Successful login: analyst
+2025-11-17 09:36:15,121 - PrivilegedRapper - ERROR - Error in MainApplication: 'MongoDBManager' object has no attribute 'alerts'
+2025-11-17 10:10:46,616 - PrivilegedRapper - INFO - Successful login: analyst
+2025-11-17 10:12:25,024 - PrivilegedRapper - INFO - Successful login: user1
+2025-11-17 10:13:08,791 - PrivilegedRapper - INFO - Successful login: admin
+2025-11-17 10:13:50,569 - PrivilegedRapper - ERROR - Error in MainApplication: 'AdminDashboard' object has no attribute 'show_analytics'
+2025-11-17 12:08:10,750 - PrivilegedRapper - INFO - Successful login: analyst
+2025-11-17 12:52:33,820 - PrivilegedRapper - INFO - Successful login: analyst
+2025-11-17 12:57:56,485 - PrivilegedRapper - INFO - Successful login: analyst
+2025-11-17 13:00:31,752 - PrivilegedRapper - INFO - Successful login: analyst
+2025-11-17 16:05:04,353 - PrivilegedRapper - INFO - Successful login: analyst
+2025-11-17 16:06:19,489 - PrivilegedRapper - INFO - Successful login: analyst
+2025-11-17 16:07:23,744 - PrivilegedRapper - INFO - Successful login: analyst

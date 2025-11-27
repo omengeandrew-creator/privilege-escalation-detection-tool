@@ -1,0 +1,33 @@
+# configuration/ai_config.yaml
+ai:
+  enabled: true
+  model_path: "./models/"
+  training_data_path: "./data/ai_training/"
+  confidence_threshold: 0.75
+  
+models:
+  detection:
+    name: "privilege_escalation_detector"
+    version: "1.0"
+    algorithm: "random_forest"
+    features: ["description_length", "has_cve", "cvss_score", "category", "evidence_length"]
+    
+  mitigation:
+    name: "mitigation_recommender" 
+    version: "1.0"
+    algorithm: "rule_based"
+    
+  simulation:
+    name: "attack_simulator"
+    version: "1.0"
+    algorithm: "markov_chain"
+
+training:
+  batch_size: 32
+  epochs: 100
+  validation_split: 0.2
+  retrain_interval_days: 30
+
+inference:
+  max_batch_size: 10
+  timeout_seconds: 30

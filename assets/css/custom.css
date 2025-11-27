@@ -1,0 +1,147 @@
+/* assets/css/custom.css */
+/* Main theme colors */
+:root {
+    --primary-color: #1f77b4;
+    --secondary-color: #ff7f0e;
+    --success-color: #2ca02c;
+    --warning-color: #ffbb78;
+    --danger-color: #d62728;
+    --dark-color: #2c3e50;
+    --light-color: #ecf0f1;
+}
+
+/* Main header styling */
+.main-header {
+    background: linear-gradient(135deg, var(--primary-color), var(--dark-color));
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Card styling */
+.security-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid var(--primary-color);
+}
+
+.security-card.critical {
+    border-left-color: var(--danger-color);
+    background: #ffeaea;
+}
+
+.security-card.high {
+    border-left-color: var(--warning-color);
+    background: #fff4e6;
+}
+
+.security-card.medium {
+    border-left-color: var(--secondary-color);
+    background: #fff9e6;
+}
+
+.security-card.low {
+    border-left-color: var(--success-color);
+    background: #f0fff4;
+}
+
+/* Button styling */
+.stButton>button {
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Risk level badges */
+.risk-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.risk-critical {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.risk-high {
+    background-color: var(--warning-color);
+    color: black;
+}
+
+.risk-medium {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.risk-low {
+    background-color: var(--success-color);
+    color: white;
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background: linear-gradient(180deg, var(--dark-color), #34495e);
+}
+
+/* Footer styling */
+.privileged-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--dark-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    border-top: 3px solid var(--primary-color);
+}
+
+/* Table styling */
+.dataframe {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dataframe thead th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Progress bars */
+.stProgress > div > div > div {
+    background-color: var(--primary-color);
+}
+
+/* Metric cards */
+.metric-card {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.metric-label {
+    font-size: 0.9rem;
+    color: #666;
+}

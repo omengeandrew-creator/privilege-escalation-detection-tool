@@ -1,0 +1,58 @@
+# configuration/scan_config.yaml
+scanning:
+  default_type: "comprehensive"
+  max_concurrent_scans: 3
+  timeout_minutes: 30
+  result_retention_days: 90
+
+modules:
+  token_manipulation:
+    enabled: true
+    depth: "standard"
+    
+  service_vulnerabilities:
+    enabled: true 
+    depth: "deep"
+    check_permissions: true
+    check_binary_integrity: true
+    
+  registry_analysis:
+    enabled: true
+    depth: "standard"
+    check_autorun: true
+    check_permissions: true
+    
+  dll_hijacking:
+    enabled: true
+    depth: "standard"
+    check_system_path: true
+    check_application_dirs: true
+    
+  scheduled_tasks:
+    enabled: true
+    depth: "standard"
+    check_permissions: true
+    check_elevation: true
+    
+  uac_bypass:
+    enabled: true
+    depth: "standard"
+    check_policies: true
+    check_bypass_techniques: true
+    
+  kernel_exploits:
+    enabled: true
+    depth: "light"
+    check_os_version: true
+    check_hotfixes: true
+    
+  password_dumping:
+    enabled: true
+    depth: "standard"
+    check_file_permissions: true
+    check_registry_access: true
+
+performance:
+  max_file_checks: 1000
+  max_registry_checks: 500
+  max_process_checks: 200

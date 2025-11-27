@@ -1,0 +1,13 @@
+# configuration/mongodb_config.yaml
+database:
+  host: "localhost"
+  port: 27017
+  name: "privileged_rapper_db"
+  timeout: 5000
+
+collections:
+  users: "users"
+  scans: "scans"
+  findings: "findings"
+  systems: "systems"
+  reports: "reports"

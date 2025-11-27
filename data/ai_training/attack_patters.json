@@ -1,0 +1,39 @@
+{
+  "attack_patterns": [
+    {
+      "technique": "token_manipulation",
+      "name": "SeDebugPrivilege Abuse",
+      "description": "Abuse SeDebugPrivilege to manipulate process tokens",
+      "indicators": ["SeDebugPrivilege enabled", "token duplication attempts"],
+      "mitigation": ["Remove unnecessary privileges", "Monitor token operations"]
+    },
+    {
+      "technique": "service_permission",
+      "name": "Weak Service Permissions",
+      "description": "Exploit services with weak permissions or unquoted paths",
+      "indicators": ["service configuration changes", "binary path manipulation"],
+      "mitigation": ["Harden service permissions", "Use quoted paths"]
+    },
+    {
+      "technique": "dll_hijacking",
+      "name": "DLL Search Order Hijacking",
+      "description": "Place malicious DLL in writable directory searched before system DLLs",
+      "indicators": ["DLL loading from unusual locations", "writable system paths"],
+      "mitigation": ["Enable DLL search order hardening", "Application whitelisting"]
+    },
+    {
+      "technique": "uac_bypass",
+      "name": "UAC Bypass",
+      "description": "Bypass User Account Control to elevate privileges",
+      "indicators": ["UAC bypass techniques", "auto-elevation attempts"],
+      "mitigation": ["Configure UAC to highest level", "Monitor bypass attempts"]
+    },
+    {
+      "technique": "registry_exploitation",
+      "name": "Registry Permission Abuse",
+      "description": "Exploit weak registry permissions for persistence or elevation",
+      "indicators": ["registry permission changes", "autorun key modifications"],
+      "mitigation": ["Secure registry permissions", "Monitor sensitive registry keys"]
+    }
+  ]
+}

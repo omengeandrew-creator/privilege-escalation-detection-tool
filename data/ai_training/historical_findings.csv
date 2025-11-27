@@ -1,0 +1,6 @@
+finding_id,title,description,risk_level,category,cvss_score,evidence_length,mitigation_length,created_at
+1,Debug Privileges Enabled,SeDebugPrivilege is enabled allowing token manipulation,high,token_manipulation,7.8,245,156,2024-01-15
+2,Weak Service Permissions,Service has weak permissions allowing hijacking,high,service_vulnerability,8.0,189,203,2024-01-15
+3,Unquoted Service Path,Service path is unquoted enabling hijacking,medium,service_vulnerability,7.2,167,145,2024-01-16
+4,Writable System Directory,System directory is writable enabling DLL hijacking,critical,dll_hijacking,8.8,203,178,2024-01-16
+5,UAC Bypass Possible,UAC may be bypassed using known techniques,medium,uac_bypass,6.5,156,189,2024-01-17

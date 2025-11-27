@@ -1,0 +1,14 @@
+2025-11-11 10:25:22,040 - PrivilegedRapper - INFO - Successful login: admin
+2025-11-11 10:26:48,337 - PrivilegedRapper - INFO - Successful login: analyst
+2025-11-11 10:54:05,667 - PrivilegedRapper - INFO - Successful login: analyst
+2025-11-11 11:14:22,576 - PrivilegedRapper - WARNING - Failed login attempt: analyst
+2025-11-11 11:14:39,896 - PrivilegedRapper - INFO - Successful login: analyst
+2025-11-11 11:18:02,815 - PrivilegedRapper - ERROR - Error in MainApplication: 'MongoDBManager' object has no attribute 'alerts'
+2025-11-11 11:18:12,901 - PrivilegedRapper - ERROR - Error in MainApplication: 'MongoDBManager' object has no attribute 'alerts'
+2025-11-11 11:18:23,243 - PrivilegedRapper - ERROR - Error in MainApplication: 'MongoDBManager' object has no attribute 'alerts'
+2025-11-11 11:18:28,288 - PrivilegedRapper - ERROR - Error in MainApplication: 'MongoDBManager' object has no attribute 'alerts'
+2025-11-11 11:18:37,073 - PrivilegedRapper - ERROR - Error in MainApplication: 'MongoDBManager' object has no attribute 'alerts'
+2025-11-11 11:18:40,224 - PrivilegedRapper - ERROR - Error in MainApplication: 'MongoDBManager' object has no attribute 'alerts'
+2025-11-11 11:18:44,471 - PrivilegedRapper - ERROR - Error in MainApplication: 'MongoDBManager' object has no attribute 'alerts'
+2025-11-11 11:18:45,490 - PrivilegedRapper - ERROR - Error in MainApplication: 'MongoDBManager' object has no attribute 'alerts'
+2025-11-11 11:19:13,618 - PrivilegedRapper - INFO - Successful login: admin
