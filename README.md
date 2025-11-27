@@ -1,0 +1,1 @@
+# privilege-escalation-detection-tool
